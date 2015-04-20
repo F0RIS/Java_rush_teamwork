@@ -14,17 +14,17 @@ public class Solution
 
     public interface Fly
     {
-        public void fly();
+        void fly();
     }
 
     public interface Run
     {
-        public void run();
+        void run();
     }
 
     public interface Swim
     {
-        public void swim();
+        void swim();
     }
 
     public class Duck

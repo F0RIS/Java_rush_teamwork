@@ -11,7 +11,7 @@ import java.util.Map;
 public class Solution
 {
 
-    //TODO тест
+    //TODO ddfgfgf
     public static HashMap<String, String> createMap()
     {
         //Напишите тут ваш код

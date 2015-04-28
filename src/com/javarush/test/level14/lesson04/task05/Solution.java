@@ -18,7 +18,7 @@ public class Solution
 
         Person person = null;
         String key;
-        while ((key = reader.readLine()) != null)
+        while ((key = reader.readLine()) != null)//сократил код? :)
         {
             if ("player".equals(key))
             {
@@ -34,8 +34,12 @@ public class Solution
     public static void haveRest(Person person)
     {
         //Add your code here
-        if (person instanceof Player) {((Player) person).play();}
-        else ((Dancer)person).dance();
+        //Поправил твой код
+        if (person.getClass() == Player.class)
+            ((Player) person).play();
+        else
+        if (person.getClass() == Dancer.class)
+            ((Dancer)person).dance();
     }
 
     interface Person

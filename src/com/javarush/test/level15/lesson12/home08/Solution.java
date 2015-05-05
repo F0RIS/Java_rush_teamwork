@@ -20,6 +20,7 @@ public class Solution {
             initialize();
         }
 
+        //если не приватный метод, то функция вызывалась у потомка и выводились неииициализированные данные
         private void initialize() {
             System.out.println(f1);
         }

@@ -38,6 +38,8 @@ public class Solution
             this.name = name;
             this.allMoney = new ArrayList<Money>();
             //Add your code here
+            this.allMoney.add(new USD(80));
+            this.allMoney.add(new Hrivna(40));
         }
 
         private List<Money> allMoney;
